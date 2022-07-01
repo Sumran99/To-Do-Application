@@ -1,0 +1,13 @@
+body{
+    background: brown;
+    text-align: center;
+}
+
+header{
+    margin-bottom: 5px;
+    font-size: 60px;
+}
+
+.tasks{
+    font-size: 30px;
+}
