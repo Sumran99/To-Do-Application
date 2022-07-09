@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js"></script>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css" />
     <title>To Do</title>
+
+
 </head>
+
 <body>
+    <div class="fa-3x">
+        <i class="fa-solid fa-clipboard-list fa-fade fa-2x"
+            style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;"></i>
+    </div>
     <header>
-        To Do App
+
+        To-Do List
     </header>
     <div class="task_input">
-        <input type="text" class="input_task"required/>
-    </div>
-    <div class="submit_task">
-        <button type="submit" onclick="addTask()">Add me</button>
+        <input type="text" class="input_task" placeholder="Add the task to do...." />
+        <button class="submit" type="submit" onclick="addTask()">
+            <i class="fa-solid fa-plus fa-2x"></i>
+        </button>
     </div>
     <div class="tasks">
         <h3>Tasks</h3>
     </div>
 </body>
+
 </html>
